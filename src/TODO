@@ -1,0 +1,42 @@
+'Cmd/Ctrl+Enter' // Triggers `Todo: Toggle Box`
+'Alt+Enter' // Triggers `Todo: Toggle Box`
+'Alt+D' // Triggers `Todo: Toggle Done`
+'Alt+C' // Triggers `Todo: Toggle Cancelled`
+'Alt+S' // Triggers `Todo: Toggle Start`
+'Cmd/Ctrl+Shift+A' // Triggers  `Todo: Archive`
+
+Todo:
+  ☐ setTimeout(function(){$("iframe").not("[allow]").remove()}, 100)
+  ☐ horizontal tab - ip dashboard, analysis->threatPath, tanium, taskmonitor
+  ☐ 21624 -- needs rework
+  ☐ FYI: filter --> use when ui wants to use our own query language, params is static mapped items in configurator (u'll need only one of these - not both)
+  ☐ enable allowOverride for just Help folder rather than allowing for all, debug "ServerSignature on", Remove apache from server response, pagination updates for list-details
+  ☐ resolve download_file.php in the popup bug.
+  ☐ ui/vivek/bugfix/22036-mr2, https://10.16.0.45/root/BotSink/merge_requests/6764/diffs, https://10.16.0.45/root/BotSink/merge_requests/6782, ui/vivek/bugfix/gphp-porting-downloads-with-target
+  ☐ ui/vivek/bugfix/22452, unsaved changes on Endpoint campaings, show edges in legends in Events page.
+  ☐ BUG: unsaved changes on Endpoint campaigns
+  ☐ Handle errors for login_value.php in tdvm for 5.x
+  ☐ ThreatDirectEP/lastSeen/ADGroups/ sort doesnt work
+  ☐ Client Group has 4 fa's (my fix branch)
+  ☐ Fileupload on Custom image for login console --> ACM->Botsink (upload fails). ACM->ACM upload preview doesn't work
+  ☐ remove _ from String.isAlphanumeric and update the method usage accordingly
+  ☐ Reports view not showing "System activity" on clicking on system activity logs
+  ☐ Ability to DELETE static/dynamic Interface, Ability to edit DHCP->Static (vice versa), if static -> IP/GATEWAY/NETMASK ; if STATIC->DHCP only type and label, 
+  ☐ Tags: Duplicate name found ( tag options not refreshed ), Persist enabled ( cancel doesnt' clear it )
+  ☐ 5.x --> after 24 upgrade, all the configurations/security patches should be double checked.
+  ☐ TDVM-> change delete to disable (move option to Edit dialog ) --> isEnable false is disabled state
+  ☐ TDVM-> in static, if user enters IP OR any text field,  all are mandatory ( except label). If none are given --> this is valid (internally it'll get assigned)
+  ☐ Swift -> random dropdown text(alliance server instance ), username and dropdown item on the logged in page
+  ☐ TAGS: make double tags after tag addition, tags manage not working
+  ☐ Production AD -> do not show join page,  in Decoy AD show join page ( if AD is installed condition then, display in Decoy AD)
+  ☐ External/Malware folder access -- response as 404 for random url requests (non image say, /external/helloworld)
+  ☐ BUG: multiple tag names are coming in single line
+  ☐ BUG: #26907 to 5.x( R4_2_MR3_BRANCH to R5_0_M_BRANCH )
+  ☐ FEATURE: read theme (dark/light ) from browser
+  ☐ BUG: update the idle timeout feature on 5.m(https://thorst.github.io/jquery-idletimer/)
+Week:
+  ☐ #27973, debugged #28052, #28137(cleanup system-health feature), debugged #28125, Resolved merge conflict, code review, call with Shivani (#28121), #28010, assembled all icons in Events/ipInformer pages(varun)
+  ☐ #27813 (increased to 1800 sec's), #26805, debugged #28130, discussion with Sunil on FIPS changes & #28130, Debugged #28154, Showing FIPS warning instead of hiding options, Reviewed !13117
+  ☐ 
+  ☐ 
+  ☐ 
